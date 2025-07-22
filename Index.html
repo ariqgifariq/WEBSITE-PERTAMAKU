@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>WEB KITA &#128525;</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- NAVIGATION BAR -->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="#" class="a-navbar">HOME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="about.html" class="a-navbar">ABOUT YOU</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="contact.html" class="a-navbar">ABOUT ME</a>
+                </li>
+            </ul>
+        </div>
+        <!-- SELESAI -->
+
+        <!-- CONTENT 1 -->
+        <div class="container-content">
+            <audio id="bg-music">
+                <source src="There is a light.ogg" type="audio/ogg">
+                <source src="There is a light.mp3" type="audio/mpeg">
+                Browser kamu tidak mendukung audio.
+            </audio>
+            <script>
+                // Begitu user klik di mana pun di halaman, audio langsung main
+                document.addEventListener('click', function () {
+                    document.getElementById('bg-music').play();
+                }, { once: false }); // Supaya cuma jalan sekali aja
+            </script>
+            <a class="a-content">
+                <img src="Kita.jpg" class="img-content" />
+                <p class="p-content">HELLO THERE! Ini adalah website pertamaku yang isinya adalah tentang dia🩷 dari
+                    sudut pandangku, dan tentang aku💙 dari sudut pandang dia. Coba klik dimana pun!
+                </p>
+            </a>
+        </div>
+        <!-- SELESAI -->
+
+        <!-- FOOTER -->
+        <div class="container-footer">
+            <h1 class="h1-footer">
+                Website ini Dibuat Sepenuh Hati❤️
+            </h1>
+        </div>
+        <!-- SELESAI -->
+    </div>
+</body>
+
+</html>
